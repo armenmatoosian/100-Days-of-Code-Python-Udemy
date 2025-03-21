@@ -147,4 +147,3 @@ while user_menu_prompt != "off":
 
 # TODO: 4. Check transaction successful?
 # TODO: 5. Make Coffee
-# TODO:
