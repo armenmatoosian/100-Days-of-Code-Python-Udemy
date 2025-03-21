@@ -1,3 +1,0 @@
-After a very long hiatus, this is my attempt at Day 15 of the 100 Days of Code course by Angela Yu on Udemy. I was somewhat surprisingly able to write nearly all of the code myself with minimal AI help (80/20 maybe?), mainly using Claude Sonnet 3.7 to troubleshoot errors and ask for correct syntax. Claude also helped me with git/gitbash, which makes using GitHub Desktop super easy by comparison (or maybe I should use Linux, which seems to be GitLab's native environment).
-
-My code is admittedly quite janky but I wanted to complete Day 15 so I can move on to Day 16 and progress through the course. I hope pushing through like this builds momentum to finish the course, and I can improve how I code (probably could have used functions here) as I move along.
