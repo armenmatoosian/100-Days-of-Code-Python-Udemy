@@ -1,4 +1,4 @@
-# lost my code for parts 1, 2, and 3 - below is solution code 😒
+# lost my code for challenges 1, 2, and 3 - below is solution code 😒
 
 from turtle import Turtle, Screen
 import random
@@ -30,8 +30,9 @@ colours = ["CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSea
 
 
 
-for shape_side_n in range(3, 11):
-    tim.color(random.choice(colours))
-    draw_shape(shape_side_n)
+
+
+
+
 
 screen.exitonclick()
