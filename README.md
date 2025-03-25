@@ -1,1 +1,0 @@
-This repo is for tracking my progression through the 100 Days of Code course by Angela Yu on Udemy.
