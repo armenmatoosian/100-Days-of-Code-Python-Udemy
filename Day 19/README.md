@@ -1,0 +1,1 @@
+This is my attempt at Day 19. Not super happy with some of the code I wrote or, more accurately, didn't write. Used too many lines to code something that a for loop could do. A positive takeaway is this helped improve my understanding of loops, especially for loops.
