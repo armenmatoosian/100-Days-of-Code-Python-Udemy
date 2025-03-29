@@ -1,12 +1,12 @@
-# shared code for Snake Game
-from turtle import Screen, Turtle, Shape
-import time
-
-screen = Screen()
-screen.setup(width=600,height=600)
-screen.bgcolor("black")
-screen.title("My Snake Game")
-screen.tracer(0)
+# # shared code for Snake Game
+# from turtle import Screen, Turtle, Shape
+# import time
+#
+# screen = Screen()
+# screen.setup(width=600,height=600)
+# screen.bgcolor("black")
+# screen.title("My Snake Game")
+# screen.tracer(0)
 
 # # my code for Snake Game Part 1: Screen Setup and Creating a Snake Body
 # # I was on the right track with the for loop and snake list, but missed with positioning and loop logic, also did not use tuples
@@ -57,8 +57,32 @@ screen.tracer(0)
 #         segments[seg_num].goto(new_x, new_y)
 #     segments[0].forward(20)
 
-# course code for Snake Game Part 1: Create a Snake Class and Move to OOP
+# my code for Snake Game Part 1: Create a Snake Class and Move to OOP
+from turtle import Screen
+from snake import Snake
+import time
 
+screen = Screen()
+screen.setup(width=600,height=600)
+screen.bgcolor("black")
+screen.title("My Snake Game")
+screen.tracer(0)
 
+snake = Snake()
+
+screen.listen()
+screen.onkey(snake.up, "Up")
+screen.onkey(snake.down,"Down")
+screen.onkey(snake.left, "Left")
+screen.onkey(snake.right,"Right")
+
+game_is_on = True
+while game_is_on:
+    screen.update()
+    time.sleep(0.1)
+
+    snake.move()
+
+# my code for Snake Game Part 1: Control the Snake
 
 screen.exitonclick()
