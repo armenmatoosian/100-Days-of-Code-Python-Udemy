@@ -1,3 +1,3 @@
-This is my attempt at Day 20. I got really stuck where you have to create a snake class and use OOP (refactoring the original code). I had some of the logic right but could not set up the class correctly. Even asking Claude for help didn't help. Classes continue to be something I struggle with and need to improve upon.
+This is my attempt at Day 20. I got really stuck where you have to create a snake class and use OOP (refactoring the original code). I had some of the logic right but could not set up the class correctly. Even asking Claude for help didn't help. Classes continue to be something I struggle with and need to improve upon. This said, I did end the day's activities on a positive note.
 
 My chat with Claude for Day 20 can be found here: https://claude.ai/share/c3eaf4af-2c51-48bd-8415-701b34e89802.
