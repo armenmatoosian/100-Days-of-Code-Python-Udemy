@@ -1,0 +1,1 @@
+This is my attempt at Day 22. A bit of a slog. Struggled with some of the logic. It's so obvious once you see the solution code, which I take as a positive sign that I understand the programming logic, and getting more exposure and repetition will improve my deductive reasoning skills (at least when it comes to coding).
