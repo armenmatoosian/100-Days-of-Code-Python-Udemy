@@ -103,20 +103,22 @@ while game_is_on:
         snake.reset()
 
     #Detect collision with tail - original code
-    for segment in snake.segments:
-        if segment == snake.head:
-            pass
-        elif snake.head.distance() < 10:
-            # game_is_on = False # code from Day 24: Add a High Score to the Snake Game
-            # scoreboard.game_over() # code from Day 24: Add a High Score to the Snake Game
-            scoreboard.reset()
-            snake.reset()
+    # for segment in snake.segments:
+    #     if segment == snake.head:
+    #         pass
+    #     elif snake.head.distance() < 10:
+    #         # game_is_on = False # code from Day 24: Add a High Score to the Snake Game
+    #         # scoreboard.game_over() # code from Day 24: Add a High Score to the Snake Game
+    #         scoreboard.reset()
+    #         snake.reset()
 
     #Detect collision with tail - code with slicing
-    # for segment in snake.segments[1:]:
-    #     if snake.head.distance(segment) < 10:
-            #game_is_on = False # code from Day 24: Add a High Score to the Snake Game
-            #scoreboard.game_over() # code from Day 24: Add a High Score to the Snake Game
+    for segment in snake.segments[1:]:
+        if snake.head.distance(segment) < 10:
+            # game_is_on = False # code from Day 24: Add a High Score to the Snake Game
+            # scoreboard.game_over() # code from Day 24: Add a High Score to the Snake Game
+            scoreboard.reset() # code from Day 24: Add a High Score to the Snake Game
+            snake.reset() # code from Day 24: Add a High Score to the Snake Game
 
 
 screen.exitonclick()

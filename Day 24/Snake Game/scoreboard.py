@@ -31,7 +31,8 @@ class Scoreboard(Turtle):
     def __init__(self):
         super().__init__()
         self.score = 0
-        self.high_score = 0 #code from Day 24: Add a High Score to the Snake Game
+        self.data = open("data.txt", mode="r+").read() # Read and Write High Score to a File
+        self.high_score = int(self.data) #code from Day 24: Add a High Score to the Snake Game, and Read and Write High Score to a File
         self.color("white")
         self.penup()
         self.goto(0, 270)
@@ -45,6 +46,8 @@ class Scoreboard(Turtle):
     def reset(self):
         if self.score > self.high_score:
             self.high_score = self.score
+            with open("data.txt", mode="w") as data: # Read and Write High Score to a File
+                data.write(f"{self.high_score}") # Read and Write High Score to a File
         self.score = 0
 
     # # code from Day 24: Add a High Score to the Snake Game

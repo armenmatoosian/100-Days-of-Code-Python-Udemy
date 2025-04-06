@@ -1,0 +1,1 @@
+This is my attempt at Day 21. I didn't create a readme for this day when I was working through it, so I don't remember what my high/lowlights were except for what can be gleaned from my chat with Claude, which can be found here: https://claude.ai/share/c3eaf4af-2c51-48bd-8415-701b34e89802.
