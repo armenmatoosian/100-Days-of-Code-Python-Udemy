@@ -7,10 +7,7 @@ This is my attempt at Day 23. There are three difficulty levels to choose from f
 - Difficulty Hard 🤔: Use only Steps 1 and 2 to complete the project.
 - Difficulty Expert 🤯: Only use Step 1 to complete the project.
 
-I've chosen to go with Hard, with Step 2 comprising a breakdown of the project provided by the course.
-I got really stuck at step 4, Create the Car Behaviour, and referred to the course video, which brings me down to normal difficulty.
-I was able to work through the remaining three steps pretty easily, with some help from Claude for step 5 and referencing code from prior Days. Some of my code is 
-slightly different from the solution code but the functionality is the same. The breakdown of all the steps is below. 
+I chose to start with Hard, with Step 2 comprising a breakdown of the project provided by the course. I got really stuck at step 4, Create the Car Behaviour, and referred to the course video, which brings me down to normal difficulty. I was able to work through the remaining three steps pretty easily, with some help from Claude for step 5 and referencing code from prior Days. Some of my code is slightly different from the solution code but the functionality is the same. The breakdown of all the steps is below. 
 
 My chat with Claude for Day 23 can be found [here](https://claude.ai/share/df380df2-0786-4213-863f-96265cc09a8b).
 
