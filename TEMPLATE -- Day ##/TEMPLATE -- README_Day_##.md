@@ -1,7 +1,7 @@
-**Day**: ##\
-**Content**: 
+## DAY ## README
 
-This is my attempt at Day ##.
+**Content:**: Intermediate - Tkinter, *args, **kwargs and Creating GUI Programs\
+[**Link to chat with Claude**](PASTE URL) OR **Link to chat with Claude:** None - didn't need to use Claude for this day\
+<br>
 
-
-My chat with Claude for Day ## can be found [here](PASTE URL).
+### **Thoughts, Learnings, and Challenges**
