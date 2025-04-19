@@ -1,0 +1,14 @@
+.!entry | .!entry2 | .!entry3
+.!entry | .!entry2 | .!entry3
+ | armen@gmail.com | 
+ | armen@gmail.com | 
+PY_VAR0 | armen@gmail.com | 
+ |  | 
+PY_VAR0 | PY_VAR1 | PY_VAR2
+PY_VAR0 | PY_VAR1 | None
+ | armen@gmail.com | 
+test | armen@gmail.com | 
+test 2 | armen@gmail.com | testpassword
+<bound method Entry.get of <tkinter.Entry object .!entry>> | armen.matoosian@gmail.com | testpassword2
+test 2 | armen.matoosian@gmail.com | testpassword2
+test 3 | armen@gmail.com | testpassword3

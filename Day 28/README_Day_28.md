@@ -1,6 +1,6 @@
 ## DAY 28 README
 
-**Content:**: Intermediate - Tkinter, *args, **kwargs and Creating GUI Programs\
+**Content:**: Intermediate - Tkinter, Dynamic Typing and the Pomodoro GUI Application\
 **~~Link to chat with Claude~~** No link - didn't use Claude for this day\
 <br>
 
