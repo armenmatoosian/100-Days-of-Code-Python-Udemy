@@ -70,13 +70,28 @@ def find_password():
     try:
         with open("data.json", "r") as data_file:
             data = json.load(data_file)
-            messagebox.showinfo(title="Website Search", message=f"Website: {website}\n"
-                                                                f"Password: {data[website]['password']}")
+            messagebox.showinfo(title="Website Search", message=f"Email: {data[website]["email"]}\n"
+                                                                f"Password: {data[website]["password"]}")
             website_entry.delete(0, END)
     except FileNotFoundError:
         messagebox.showinfo(title="Website Search", message=f"No Data File Found.")
     except KeyError:
         messagebox.showinfo(title=f"Website: {website} Not Found", message=f"No details for the website exist.")
+
+    # # solution code for Challenge 2 - Search for a Website in the Password Manager, create find_password() and error handling
+    # website = website_entry.get()
+    # try:
+    #     with open("data.json") as data_file:
+    #         data = json.load(data_file)
+    # except FileNotFoundError:
+    #     messagebox.showinfo(title="Error", message=f"No Data File Found.")
+    # else:
+    #     if website in data:
+    #         email = data[website]["email"]
+    #         password = data[website]["password"]
+    #         messagebox.showinfo(title=website, message=f"Email: {email}\nPassword: {password}")
+    #     else:
+    #         messagebox.showinfo(title="Error", message=f"No details for {website} exists.")
 
 # ---------------------------- UI SETUP ------------------------------- #
 
