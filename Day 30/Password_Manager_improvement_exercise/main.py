@@ -63,6 +63,7 @@ def save():
             website_entry.delete(0, END)
             password_entry.delete(0, END)
 
+# ---------------------------- FIND PASSWORD ------------------------------- #
 # my code for Challenge 2 - Search for a Website in the Password Manager, create find_password() and error handling
 def find_password():
     website = website_entry.get()
