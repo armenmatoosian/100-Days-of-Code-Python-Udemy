@@ -1,7 +1,7 @@
 ## DAY 32 README
 
 **Content:**: Intermediate+ Send Email (smtplib) & Manage Dates (datetime)\
-[**Link to chat with Claude**](https://claude.ai/share/601ab988-2e4c-44b1-806a-1e17f62b0909)
+[**Link to chat with Claude**](https://claude.ai/share/601ab988-2e4c-44b1-806a-1e17f62b0909)\
 [**Link to chat with Gemini**](https://g.co/gemini/share/2cd2e7edb8b6)
 <br>
 
