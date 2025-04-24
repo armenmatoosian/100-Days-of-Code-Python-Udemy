@@ -1,7 +1,7 @@
 ## DAY 33 README
 
 **Content:**: Intermediate+ API Endpoints & API Parameters - ISS Overhead Notifier\
-[**Link to chat with [REPLACE WITH CHATBOT NAME]**](https://claude.ai/share/623119ff-a06b-42a9-99d3-80fd7b0b2c3a)
+[**Link to chat with Claude**](https://claude.ai/share/623119ff-a06b-42a9-99d3-80fd7b0b2c3a)
 <br>
 
 ### **Thoughts, Learnings, and Challenges**
